@@ -1,12 +1,12 @@
-import FilterTags from "./Components/FilterTags";
+import PostCard from "./Components/PostCard";
 import Postlist from "./Components/PostList";
 
 export default function App() {
   return (
     <div>
-      <header>Blog HomePage</header>
-      <FilterTags />
+      <header className="header">Blog HomePage</header>
       <Postlist />
+      <PostCard />
     </div>
   );
 }
